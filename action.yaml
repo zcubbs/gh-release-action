@@ -1,0 +1,18 @@
+name: 'Create Version Tag'
+description: 'Automatically create a new version tag'
+inputs:
+  major:
+    description: 'Major version number'
+    required: true
+  minor:
+    description: 'Minor version number'
+    required: true
+  github-token:
+    description: 'GitHub token'
+    required: true
+outputs:
+  new-version:
+    description: 'The new version number that was created'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
