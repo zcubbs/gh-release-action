@@ -19,4 +19,4 @@ outputs:
     description: 'The new version number that was created'
 runs:
   using: 'node12'
-  main: 'lib/main.js'
+  main: 'dist/index.js'
