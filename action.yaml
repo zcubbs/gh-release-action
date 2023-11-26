@@ -1,4 +1,4 @@
-name: 'Github Release Action'
+name: 'GH Release Action'
 description: 'Automatically create a new version tag'
 author: 'zcubbs'
 branding:
