@@ -1,4 +1,4 @@
-name: 'Create Version Tag'
+name: 'Github Release Action'
 description: 'Automatically create a new version tag'
 author: 'zcubbs'
 branding:
