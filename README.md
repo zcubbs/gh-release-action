@@ -43,6 +43,12 @@ jobs:
         run: echo "The new version is ${{ steps.versioning.outputs.new-version }}"
 ```
 
+## Development
+
+```bash
+npm run build
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
